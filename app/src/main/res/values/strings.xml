@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FontStyle</string>
+    <string name="description">Lorem ipsum dolor sit amet consectetur adipiscing elit. Donec tincidunt vitae risus vitae varius.</string>
+
 </resources>
