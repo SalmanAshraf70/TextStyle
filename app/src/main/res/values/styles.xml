@@ -5,9 +5,8 @@
     <style name="header_xlarge">
         <item name="android:textSize">32sp</item>
         <item name="android:lineSpacingExtra"> 40sp </item>
-        <item name="android:textStyle"> bold </item>
+        <item name="android:fontFamily"> bold </item>
         <item name="android:letterSpacing"> -1 </item>
-        
     </style>
 
     <style name="header_large">
