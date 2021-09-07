@@ -1,5 +1,6 @@
 package com.alephlab.fontstyle
 
+import android.graphics.Paint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -58,6 +59,7 @@ class HomeAdapter() :
                 10 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.note)
                 else -> { // Note the block
                     TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.strikehrough)
+                    itemView.descriptionTextView.setPaintFlags(itemView.descriptionTextView.getPaintFlags() or Paint.STRIKE_THRU_TEXT_FLAG)
                 }
             }
             itemView.titleTextView.text = (item.title)

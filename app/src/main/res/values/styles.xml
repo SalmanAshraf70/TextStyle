@@ -87,10 +87,9 @@
 
     <style name="strikehrough">
         <item name="android:textSize">11sp</item>
-        <item name="android:foreground">@drawable/strikethrough</item>
         <item name="android:lineHeight">14sp</item>
         <item name="android:fontFamily">@font/notosans_regular</item>
-                <item name="android:letterSpacing">0.002</item>
+        <item name="android:letterSpacing">0.002</item>
 
     </style>
 
