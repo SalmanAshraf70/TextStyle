@@ -3,6 +3,7 @@ package com.alephlab.fontstyle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.widget.TextViewCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.alephlab.fontstyle.model.TextItem
 import kotlinx.android.synthetic.main.item_font.view.*
@@ -43,6 +44,22 @@ class HomeAdapter() :
     class AccountViewHolder(itemView: View) : HomeViewHolder<TextItem>(itemView) {
         override fun bind(item: TextItem, onItemClickListener: ((String) -> Unit)?) {
 
+            when (item.id) {
+                0 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.header_xlarge)
+                1 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.header_large)
+                2 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.header_medium)
+                3 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.header_small)
+                4 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.body)
+                5 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.body_bold)
+                6 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.call_out)
+                7 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.label)
+                8 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.foot_note)
+                9 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.tab)
+                10 -> TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.note)
+                else -> { // Note the block
+                    TextViewCompat.setTextAppearance(itemView.descriptionTextView, R.style.strikehrough)
+                }
+            }
             itemView.titleTextView.text = (item.title)
             itemView.descriptionTextView.text = (item.description)
 
