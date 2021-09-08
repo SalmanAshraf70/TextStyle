@@ -29,11 +29,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:textColor="@color/black"
+            style="@style/header_xlarge"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/titleTextView"
-            tools:text="World!" />
+            tools:text="Hello World!" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
