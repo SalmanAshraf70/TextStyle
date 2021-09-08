@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun addValue() {
-        val item0 = TextItem(0,"Header XLarge", getString(R.string.description))
+        val item0 = TextItem(0,"Header XLarge", getString(R.string.title))
         val item1 = TextItem(1, "Header Large", getString(R.string.description))
         val item2 = TextItem(2, "Header Medium", getString(R.string.description))
         val item3 = TextItem(3, "Header Small", getString(R.string.description))
