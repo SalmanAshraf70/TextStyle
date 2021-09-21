@@ -2,17 +2,17 @@
 <resources>
 
 
-    <style name="header_xlarge">
+    <style name="header_xlarge" >
         <item name="android:textSize">32sp</item>
         <item name="android:fontFamily">@font/notosans_bold</item>
         <item name="android:letterSpacing">-0.01</item>
-        <item name="lineSpacing">40dp</item>
+        <item name="lineHeight">80sp</item>
         <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="header_large">
         <item name="android:textSize">24sp</item>
-        <item name="lineSpacing">32dp</item>
+        <item name="lineHeight">32dp</item>
         <item name="android:fontFamily">@font/notosans_bold</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/black</item>
@@ -20,7 +20,7 @@
 
     <style name="header_medium">
         <item name="android:textSize">20sp</item>
-        <item name="lineSpacing">26dp</item>
+        <item name="lineHeight">26dp</item>
         <item name="android:fontFamily">@font/notosans_bold</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/black</item>
@@ -29,7 +29,7 @@
 
     <style name="header_small">
         <item name="android:textSize">16sp</item>
-        <item name="lineSpacing">22dp</item>
+        <item name="lineHeight">22dp</item>
         <item name="android:fontFamily">@font/notosans_bold</item>
         <item name="android:letterSpacing">-0.01</item>
         <item name="android:textColor">@color/black</item>
@@ -37,7 +37,7 @@
 
     <style name="body">
         <item name="android:textSize">16sp</item>
-        <item name="lineSpacing">22sp</item>
+        <item name="lineHeight">22sp</item>
         <item name="android:fontFamily">@font/notosans_regular</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:textColor">@color/black</item>
@@ -45,7 +45,7 @@
 
     <style name="body_bold">
         <item name="android:textSize">16sp</item>
-        <item name="lineSpacing">22sp</item>
+        <item name="lineHeight">22sp</item>
         <item name="android:fontFamily">@font/notosans_semi_bold</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:textColor">@color/black</item>
@@ -54,7 +54,7 @@
 
     <style name="call_out">
         <item name="android:textSize">13sp</item>
-        <item name="lineSpacing">16sp</item>
+        <item name="lineHeight">16sp</item>
         <item name="android:fontFamily">@font/notosans_regular</item>
         <item name="android:letterSpacing">0.08</item>
         <item name="android:textColor">@color/black</item>
@@ -62,7 +62,7 @@
 
     <style name="label">
         <item name="android:textSize">13sp</item>
-        <item name="lineSpacing">16sp</item>
+        <item name="lineHeight">16sp</item>
         <item name="android:fontFamily">@font/notosans_regular</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:textColor">@color/black</item>
@@ -70,7 +70,7 @@
 
     <style name="foot_note">
         <item name="android:textSize">13sp</item>
-        <item name="lineSpacing">16sp</item>
+        <item name="lineHeight">16sp</item>
         <item name="android:fontFamily">@font/notosans_semi_bold</item>
         <item name="android:letterSpacing">0</item>
         <item name="android:textColor">@color/black</item>
@@ -78,7 +78,7 @@
 
     <style name="tab">
         <item name="android:textSize">11sp</item>
-        <item name="lineSpacing">14sp</item>
+        <item name="lineHeight">14sp</item>
         <item name="android:fontFamily">@font/notosans_semi_bold</item>
         <item name="android:letterSpacing">0.01</item>
         <item name="android:textColor">@color/black</item>
@@ -86,7 +86,7 @@
 
     <style name="note">
         <item name="android:textSize">11sp</item>
-        <item name="lineSpacing">14sp</item>
+        <item name="lineHeight">14sp</item>
         <item name="android:fontFamily">@font/notosans_regular</item>
         <item name="android:letterSpacing">0.02</item>
         <item name="android:textColor">@color/black</item>
@@ -94,7 +94,7 @@
 
     <style name="strikehrough">
         <item name="android:textSize">11sp</item>
-        <item name="lineSpacing">14sp</item>
+        <item name="lineHeight">14sp</item>
         <item name="android:fontFamily">@font/notosans_regular</item>
         <item name="android:letterSpacing">0.02</item>
         <item name="android:textColor">@color/black</item>
